@@ -18,8 +18,8 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'dreamxbotz_search')   # Session name for the bot
-API_ID = int(environ.get('API_ID', '25059287')) # API ID from my.telegram.org
-API_HASH = environ.get('API_HASH', '5e7701953107a273724b07f2beaf8f17')  # API Hash from my.telegram.org
+API_ID = int(environ.get('API_ID', '20803355')) # API ID from my.telegram.org
+API_HASH = environ.get('API_HASH', 'caa85d91bcde4e8826ad697de02af771')  # API Hash from my.telegram.org
 BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 
 # ============================
@@ -31,7 +31,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/f5a760c44739d7d3556d3-b4fc3f2a6eede69b89.jpg https://graph.org/file/adc3f7f1718db2db565c0-6e6d50725584506966.jpg https://graph.org/file/272ef736a8d3b9d1e4cb5-d8da01b6b04cdbb104.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', '')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/f5a760c44739d7d3556d3-b4fc3f2a6eede69b89.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/adc3f7f1718db2db565c0-6e6d50725584506966.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/5c07ed7076cce434a6147-8731b76b6031d4512f.jpg")
