@@ -216,7 +216,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<blockquote><b><a href="https://t.me/moviehub4u_update">{file_name}</a></b></blockquote>\n\n<b> Uploaded By 🌿 : <a href="https://t.me/moviehub4u_update">[ M◍viε⁠ ｡Hᴗ⁠b ｡4U 🌿 ]</a></b>"""
+    CAPTION = """<blockquote><b><a href="https://t.me/movie_backup_group">{file_name}</a></b></blockquote>\n\n<b> Uploaded By 🌿 : <a href="https://t.me/movie_backup_group">[ M◍viε⁠ ｡Hᴗ⁠b ｡4U 🌿 ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
